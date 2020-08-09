@@ -1,0 +1,26 @@
+{
+  "asset": "asset:paterns_app_2/lib/presetance/shared_prefs/shared_prefs.dart",
+  "summary": {
+    "injector": [],
+    "module": [],
+    "injectable": [
+      {
+        "name": "SharedPreferencesHelper",
+        "constructor": {
+          "name": "",
+          "kind": "constructor",
+          "injectedType": {
+            "lookupKey": {
+              "root": "asset:paterns_app_2/lib/presetance/shared_prefs/shared_prefs.dart#SharedPreferencesHelper",
+              "qualifier": null
+            },
+            "isProvider": false
+          },
+          "singleton": false,
+          "asynchronous": false,
+          "dependencies": []
+        }
+      }
+    ]
+  }
+}

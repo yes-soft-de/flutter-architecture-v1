@@ -1,0 +1,34 @@
+{
+  "asset": "asset:paterns_app_2/lib/main/ui/screens/weather_screen/weather_screen.dart",
+  "summary": {
+    "injector": [],
+    "module": [],
+    "injectable": [
+      {
+        "name": "WeatherScreen",
+        "constructor": {
+          "name": "",
+          "kind": "constructor",
+          "injectedType": {
+            "lookupKey": {
+              "root": "asset:paterns_app_2/lib/main/ui/screens/weather_screen/weather_screen.dart#WeatherScreen",
+              "qualifier": null
+            },
+            "isProvider": false
+          },
+          "singleton": false,
+          "asynchronous": false,
+          "dependencies": [
+            {
+              "lookupKey": {
+                "root": "asset:paterns_app_2/lib/main/state_manager/weather_statemanager.dart#WeatherStateManager",
+                "qualifier": null
+              },
+              "isProvider": false
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

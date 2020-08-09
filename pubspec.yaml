@@ -1,0 +1,57 @@
+name: paterns_app_2
+description: Patterns in Flutter Application
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.3
+
+  # Dependency injection
+  inject:
+    git:
+      url: https://github.com/google/inject.dart.git
+      path: package/inject
+      ref: 7c3cbf6
+
+  # Shared Prefs
+  shared_preferences: ^0.5.7+3
+
+  # Network Agent
+  http: ^0.12.1
+  dio: ^3.0.9
+  dio_flutter_transformer: ^3.0.2
+  dio_http_cache: ^0.2.7
+  dio_cookie_manager: ^1.0.0
+
+  # Streams and RX
+  rxdart: ^0.24.1
+
+dependency_overrides:
+  source_gen: 0.9.5
+  analyzer: ^0.39.4
+  intl: ^0.16.1
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  inject_generator:
+    git:
+      url: https://github.com/google/inject.dart.git
+      path: package/inject_generator
+      ref: 7c3cbf6
+
+  build_runner: ^1.7.3
+
+
+flutter:
+
+  uses-material-design: true
+

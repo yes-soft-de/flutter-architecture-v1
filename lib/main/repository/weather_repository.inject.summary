@@ -1,0 +1,26 @@
+{
+  "asset": "asset:paterns_app_2/lib/main/repository/weather_repository.dart",
+  "summary": {
+    "injector": [],
+    "module": [],
+    "injectable": [
+      {
+        "name": "WeatherRepository",
+        "constructor": {
+          "name": "",
+          "kind": "constructor",
+          "injectedType": {
+            "lookupKey": {
+              "root": "asset:paterns_app_2/lib/main/repository/weather_repository.dart#WeatherRepository",
+              "qualifier": null
+            },
+            "isProvider": false
+          },
+          "singleton": true,
+          "asynchronous": false,
+          "dependencies": []
+        }
+      }
+    ]
+  }
+}

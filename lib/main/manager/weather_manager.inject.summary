@@ -1,0 +1,34 @@
+{
+  "asset": "asset:paterns_app_2/lib/main/manager/weather_manager.dart",
+  "summary": {
+    "injector": [],
+    "module": [],
+    "injectable": [
+      {
+        "name": "WeatherManager",
+        "constructor": {
+          "name": "",
+          "kind": "constructor",
+          "injectedType": {
+            "lookupKey": {
+              "root": "asset:paterns_app_2/lib/main/manager/weather_manager.dart#WeatherManager",
+              "qualifier": null
+            },
+            "isProvider": false
+          },
+          "singleton": true,
+          "asynchronous": false,
+          "dependencies": [
+            {
+              "lookupKey": {
+                "root": "asset:paterns_app_2/lib/main/repository/weather_repository.dart#WeatherRepository",
+                "qualifier": null
+              },
+              "isProvider": false
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
